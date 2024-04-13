@@ -26,8 +26,9 @@ const ProductCard = (props) => {
         }, 3000);
     };
 
-    const newPrice = displayMoney(finalPrice);
-    const oldPrice = displayMoney(originalPrice);
+    const newPrice = displayMoney(finalPrice/10);
+    const oldPrice = displayMoney(originalPrice/10);
+    console.log(newPrice)
 
 
     return (
@@ -50,7 +51,7 @@ const ProductCard = (props) => {
                     <h5 className="products_info">{info}</h5>
                     <div className="separator"></div>
                     <h2 className="products_price">
-                        {newPrice} &nbsp;
+                        {(newPrice)} &nbsp;
                         <small><del>{oldPrice}</del></small>
                     </h2>
                     <button
