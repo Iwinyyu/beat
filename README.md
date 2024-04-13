@@ -1,5 +1,6 @@
 ## X-Beat | React eCommerce Web App
 
+
 Audio Store eCommerce Website, built with **React JS**. <br/>
 State management using Context API.
 <br/>
@@ -20,6 +21,11 @@ State management using Context API.
 <br/>
 
 ## Technologies used:
+
+- ### **React JS**
+- ### **React Router**
+- ### **React Swiper**
+- ### **SASS**
 
 - ### **React JS**
 - ### **React Router**
